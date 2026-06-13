@@ -491,7 +491,7 @@ div[data-testid="stTabs"]{
 
 @st.cache_data
 def load_data():
-    data_path = Path(__file__).resolve().parent / "Data" / "European_Bank_Cleaned.csv"
+    data_path = Path(__file__).resolve().parent / "data" / "European_Bank_Cleaned.csv"
     return pd.read_csv(data_path)
 
 df = load_data()
